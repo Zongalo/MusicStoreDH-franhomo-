@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+
+li.headerli{
+	margin:15px 0px;
+}
+
+#headera{
+	display: inline;
+    padding: 1vw 10px;
+}
+
+}
+

@@ -1,0 +1,262 @@
+img{
+	width:100%;
+}
+fieldset.faq{
+		margin-bottom: 25px;
+}
+
+div.faq-head{
+	overflow:hidden;
+}
+img.logo-faq{
+    width: 60%;
+    margin: 10% 20% 5% 20%;
+}
+div.faq-header{
+    display: inline-block;
+    width: 68vw;
+    margin: 2vw 4.5vw 3vh 4.5vw;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    float: left;
+}
+strong.h1{
+    font-size: 4.8vw;
+    display: inline-block;
+    float: right;
+    margin: 0px;
+    padding: 1.2vw 0px;
+}
+
+p.faq-title-p{
+    font-size: 3.9vw;
+    display: inline-block;
+    float: left;
+    margin: 0px;
+    padding: 1vw 0px;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+div.faq-master{
+	background-color: #757575;
+    border: 10px solid #424242;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+
+div.form-group{
+	text-align:center;
+}
+div.faq{
+	padding:0px;
+	margin:0px;
+}
+
+div.columna-fuq-line{
+    width: 80%;
+    margin: 0vh 10% 2vw 10%;
+    text-align:center;
+}
+
+div.columna-fuq-1{
+    width:39%;
+    margin:0px 3% 0px 7%;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+}
+
+div.columna-fuq-2{
+    width:39%;
+    margin:0px 7% 0px 3%;
+    padding: 0px;
+    display: inline-block;
+    float: right;
+}
+
+strong.faq{
+	display: inline-block;
+    width:100%;
+    margin: 2vw 0% 1vw 0%;
+    font-weight: 700;
+    font-size: 2.5vw;
+	font-family: 'Black Ops One', cursive;
+}
+p.faq{
+	width: 100%;
+    margin: 1vw 0% 0.5vw 0%;
+    display: inline-block;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1.8vw;
+}
+
+a.a-fuq, a.a-fuq:link,a.a-fuq:visited,a.a-fuq:active{
+    text-align:center;
+    text-decoration:none;
+    color:#333;
+}
+
+div.movile{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) and (min-width:481px) {
+
+div.Desktop{
+    display: none;
+}
+
+div.movile{
+    display: flex;
+}
+
+img{
+    width:100%;
+}
+fieldset.faq{
+        margin-bottom: 25px;
+}
+
+div.faq-head{
+    overflow:hidden;
+}
+img.logo-faq{
+    width: 60%;
+    margin: 10% 20% 5% 20%;
+}
+div.faq-header{
+    display:inline-block;
+    width:80%;
+    margin: 0% 10% 3vh 10%;
+    text-align:center;
+    font-family: 'Bungee', cursive;
+    float:left;
+}
+strong.h1movile{
+    font-size:6vw;
+    margin:0px;
+}
+
+div.faq-master{
+    width:50%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+div.form-group{
+    text-align:center;
+}
+ul.faq{
+    padding:0px;
+    margin:0px;
+}
+
+strong.faq {
+    display: inline-block;
+    width: 80%;
+    margin: 4vh 10% 3vh 10%;
+    font-weight: 700;
+    font-size: 3.1vw;
+    font-family: 'Black Ops One', cursive;
+}
+
+p.faq {
+    width: 80%;
+    margin: 2vh 10% 1vh 10%;
+    display: inline-block;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 2.3vw;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+div.Desktop{
+    display: none;
+}
+
+div.movile{
+    display: flex;
+}
+
+img{
+    width:100%;
+}
+fieldset.faq{
+    position:relative;
+    top:30px;
+    margin-bottom:0px;
+}
+
+div.faq-head{
+    overflow:hidden;
+}
+img.logo-faq{
+    width: 60%;
+    margin: 10% 20% 5% 20%;
+}
+div.faq-header{
+    display:inline-block;
+    width:80%;
+    margin: 0% 10% 3vh 10%;
+    text-align:center;
+    font-family: 'Bungee', cursive;
+    float:left;
+}
+strong.h1movile {
+    font-size: 18vw;
+    margin: 0px;
+}
+
+div.faq-master{
+    width:100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin:0px;
+}
+
+
+div.form-group{
+    text-align:center;
+}
+ul.faq{
+    padding:0px;
+    margin:0px;
+}
+
+strong.faq {
+    display: inline-block;
+    width: 80%;
+    margin: 2vh 10% 1vh 10%;
+    font-weight: 700;
+    font-size: 7.5vw;
+    font-family: 'Black Ops One', cursive;
+}
+
+p.faq {
+    width: 80%;
+    margin: 2vh 10% 1vh 10%;
+    display: inline-block;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 5.8vw;
+}
+
+}
