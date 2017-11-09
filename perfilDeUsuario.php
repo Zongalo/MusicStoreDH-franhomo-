@@ -4,41 +4,79 @@
 	if (!estaLogueado()) {
 		header("Location:inicio-de-sesion.php");exit;
 	}
-	$email = $_GET["email"];
-	$usuario = traerPorEmail($email);
 ?>
 
 <?php include("header.php"); ?>
 
 
 
+<div class="Desktop">
 
 
-<fieldset class="inicio-sesion">
-        <div class="container">
+            <div class="container-fluid body-main-page body-fuq">
+                    <section class="banner">
+                        <img src="css/images/logo.png" alt="logotipo" class="logo logo-main">
+                        <img src="css/images/img-banner.jpg" alt="banner" class="banner-main">
+                        <div class="nav-header">
+                        <nav class="header-nav">
+                            <ul class="main-nav">
+                                <li class="header-nav"> <a href="index.php">HOME</a></li>
+                                <li class="header-nav"> <a href="categorias.php">CATEGORIAS</a></li>
+                                <li class="header-nav"> <a href="faq.php">FAQ</a></li>
+                                <li class="header-nav"> <a href="#">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                        </div>
+                    </section>
 
-          <div class="row">
-            <div class="col-md-4 col-md-offset-4 sing-in-master">
-             <img src="css/images/logo.png" alt="logotipo" class="logo sing-in">
-                <div class="form-group">
-                    <div class="row">
-                    <div class="jumbotron sing-in"><h3>Perfil de <?php echo obtenerUsuarioLogueado();?></h3></div>
 
+                    <!-- Título Novedades -->
+                    <div class="container body-main">
+                    </div>
             </div>
-                   <label class="sing-in">Nombre: <?php echo obtenerNombrePerfil();?></label>
-                </div>
-                <div class="form-group">
-                    <label class="sing-in">Email: <?php echo obtenerEmailPerfil();?></label>
-                </div>
-                <div class="form-group">
-          <label class="sing-in">Pais: <?php echo obtenerPaisPerfil();?></label>
-        </div>
-      </div>
 
-      </form>
+    <fieldset class="inicio-sesion">
+
+          <div class="col-md-4 col-md-offset-4 perfil-master">
+
+              <div class="title-perfil">
+                
+                <img src="css/images/logo.png" alt="logotipo" class="logo perfil">
+                <div class="perfil-title">
+                    <div class="form-group">
+                    <div class="row">
+                    <strong class="perfil-title">MusicStore:</strong><h3 class="perfil-title">Perfil de <?php echo obtenerUsuarioLogueado();?></h3>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            
+          <div class="perfil-cuerpo">
+
+                <div class="cuerpo-title">
+                    <strong class="cuerpo-title">Datos Personales:</strong>
+                </div>
+
+                <div class="cuerpo-perfil">
+                   <label class="perfil-cuerpo">Nombre: </label>
+                   <strong class="perfil-cuerpo"><?php echo obtenerNombrePerfil();?></strong>
+                </div>
+
+                <div class="cuerpo-perfil">
+                    <label class="perfil-cuerpo">Email: </label>
+                    <strong class="perfil-cuerpo"> <?php echo obtenerEmailPerfil();?> </strong>
+                </div>
+
+                <div class="cuerpo-perfil">
+                    <label class="perfil-cuerpo">Pais: </label>
+                    <strong class="perfil-cuerpo"><?php echo obtenerPaisPerfil();?></strong>
+                </div>
+
           </div>
-        </div>
-      </div>
-    </fieldset>
+      
+          </div>
+
+      </fieldset>
+  </div>
 	</section>
 	</main>

@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="Categorias.css">
     <link rel="stylesheet" type="text/css" href="Mainpage.css">
     <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="perfilDeUsuario.css">
     <title> Music Store DH</title>
 </head>
     <body>
