@@ -1,0 +1,27 @@
+body{
+	background-image: url(bg-body2.png);
+}
+
+.top-nav {
+    float: left;
+    display: inline;
+}
+
+ul li {
+ list-style: none;
+}
+
+fieldset{
+
+	position: relative;
+	top: 62px;
+}
+
+.titulo-home {
+	background-color: #ABC;
+	padding: 10px 10px;
+}
+
+h2 {
+	text-align: center;
+}
