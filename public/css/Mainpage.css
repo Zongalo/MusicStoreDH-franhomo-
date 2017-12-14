@@ -1,0 +1,431 @@
+*{
+	box-sizing: border-box;
+}
+px
+img{
+	width:100%;
+}
+
+section.banner{
+	width:100%;
+	padding-top:51px;
+	position:relative;
+}
+
+img.logo-main{
+    width: 20%;
+    margin: 10% 40% 1px 40%;
+    position:absolute;
+    z-index:3;
+
+}
+
+img.banner-main{
+	width:100%;
+	height:31vw;
+	position:absolute;
+	z-index:1;
+}
+
+div.nav-header{
+	position:absolute;
+	z-index:2;
+	width:100%;
+}
+
+ul.main-nav{
+	width:85%;
+	height:4vw;
+	margin:25% 7.5% 15px 7.5%;
+	padding:0px;
+	border-radius:40px;
+	text-align: center;
+	background-color:#292929;
+	overflow:hidden;
+
+}
+
+li.header-nav{
+   	display: inline-block;
+    font-size: 1.6vw;
+    text-align: center;
+    width: 21%;
+    margin: 1% 2% 1% 2%;
+    font-family: 'Bungee', cursive;
+    float: left;
+}
+
+a:link,a:visited,a:active{
+	text-align:center;
+	text-decoration:none;
+	color:#e0e0e0;
+}
+
+div.body-main{
+	margin-top:30vw;
+}
+
+div.space{
+	margin-top:2vw;
+}
+
+h2.main-b{
+	background-color: #757575;
+    border: 10px solid #424242;
+    width: 25vw;
+    height: 8vw;
+    margin: auto;
+    border-radius: 43%;
+    font-family: 'Bungee', cursive;
+    padding: 1.5vw 0%;
+    font-size: 3vw;
+}
+
+section.vip-products{
+	text-align:center;
+	width:85vw;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	margin-bottom:40px;
+}
+article.product{
+	display:inline-block;
+	width:25vw;
+	margin: 15px 1vw;
+	background-color: #757575;
+    border: 10px solid #424242;
+}
+h2.product{
+	text-align: center;
+    margin: 0.65vw 0.65vw 0.65vw 0.5vw;
+    font-size: 2.5vw;
+    font-family: 'Black Ops One', cursive;
+}
+p.product{
+	text-align:center;
+	margin: 0.65vw 0.65vw 0.65vw 0.5vw;
+	font-size:1.3vw;
+	font-family: 'Quicksand', sans-serif;
+}
+a.product{
+	display: inline-block;
+    background-color: #424242;
+    text-align: center;
+    height: 2vw;
+    width: 25%;
+    padding: 5px 5px;
+    margin: 0.6vw;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.columna-cat-line-index{
+    background-color: #757575;
+    border: 10px solid #424242;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin:2.5vw 0px;
+}
+
+div.columna-marc-line{
+    background-color: white;
+    border: 10px solid #424242;
+    padding-top: 15px;
+    width: 93.333%;
+    margin: 25px 3.333% 0px 3.333%;
+}
+
+
+strong.categorias-index{
+    display: inline-block;
+    width:100%;
+    margin: 1vw 0% 1vw 0%;
+    font-weight: 700;
+    font-size: 3.5vw;
+    font-family: 'Black Ops One', cursive;
+}
+
+p.categorias-index{
+    width: 95%;
+    margin: 0% 2.5%;
+    display: inline-block;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1.5vw;
+}
+
+div.categorias-index-box{
+    display:inline-block;
+    text-align: center;
+    padding:1.5vw;
+    margin:1vw 0.5vw;
+    width:20vw;
+
+}
+
+strong.categorias-index-box{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5vw;
+    font-family: 'Monoton', cursive;
+    
+}
+
+.uno{
+    border-right: 0.2vw solid #424242;
+}
+
+.dos{
+    margin:0px 2vw;
+}
+.tres{
+    border-left: 0.2vw solid #424242;
+}
+
+img.categoria{
+    border: 10px solid #424242;;
+    border-radius: 100%;
+    margin:1.5vw 0%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+section.vip-products{
+	text-align:center;
+	width:85vw;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	margin-bottom:40px;
+}
+article.product{
+	display:inline-block;
+	width:25vw;
+	margin: 15px 1vw;
+	background-color: #757575;
+    border: 10px solid #424242;
+}
+
+h2.product{
+	text-align: left;
+    margin: 0.65vw 0.65vw 0.65vw 0.5vw;
+    padding-right: 1.5vw;
+    font-size: 2.8vw;
+    font-family: 'Black Ops One', cursive;
+}
+p.product{
+	text-align:justify;
+	margin: 0.65vw 0.65vw 0.65vw 0.5vw;
+	padding-right: 2.5vw;
+    font-size: 1.4vw;
+	font-family: 'Quicksand', sans-serif;
+}
+a.product{
+	display: inline-block;
+    background-color: #424242;
+    text-align: center;
+    height: 2vw;
+    width: 25%;
+    padding: 5px 5px;
+    margin: 0.6vw;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+ul.main-nav{
+	width:85%;
+	height:5vw;
+	margin:25% 7.5% 15px 7.5%;
+	padding:0px;
+	border-radius:40px;
+	text-align: center;
+	background-color:#292929;
+	overflow:hidden;
+
+}
+
+li.header-nav{
+    display: inline-block;
+    font-size: 2vw;
+    text-align: center;
+    width: 21%;
+    margin: 1.5% 2% 1.5% 2%;
+    font-family: 'Bungee', cursive;
+    float: left;
+}
+
+section.vip-products{
+	text-align:center;
+	width:85vw;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	margin-bottom:40px;
+}
+article.product{
+	display:inline-block;
+	width:40vw;
+	margin: 15px 1vw;
+	background-color: #757575;
+    border: 10px solid #424242;
+}
+h2.product{
+	text-align: left;
+    margin: 0.65vw 0.65vw 0.65vw 0.5vw;
+    padding-right: 1.5vw;
+    font-size: 3.2vw;
+    font-family: 'Black Ops One', cursive;
+}
+p.product{
+	text-align:justify;
+	margin: 0.65vw 0.65vw 0.65vw 0.5vw;
+	padding-right: 3.5vw;
+    font-size: 1.8vw;
+	font-family: 'Quicksand', sans-serif;
+}
+a.product{
+	display: inline-block;
+    background-color: #424242;
+    text-align: center;
+    height: 3.5vw;
+    width: 25%;
+    padding: 5px 5px;
+    margin: 0.6vw;
+    font-size: 1.7vw;
+    font-family: 'Raleway', sans-serif
+}
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+div.body-main {
+    margin-top: 35vw;
+}
+
+div.body-main-page{
+	padding: 0px;
+}
+
+img.logo-main {
+    width: 40%;
+    margin: 10% 30% 1px 30%;
+    position: absolute;
+    z-index: 3;
+}
+
+img.banner-main {
+    width: 100%;
+    height: 39vw;
+    position: absolute;
+    z-index: 1;
+}
+
+div.nav-header{
+	visibility:hidden;
+}
+
+article.product {
+    display: inline-block;
+    width: 100%;
+    height: 88vw;
+    margin: 15px 1vw;
+    background-color: #757575;
+    border: 10px solid #424242;
+}
+
+h2.product {
+    text-align: left;
+    margin: 1.65vw 1.65vw 1.65vw 1.5vw;
+    padding-right: 0.5vw;
+    font-size: 7.5vw;
+    font-family: 'Black Ops One', cursive;
+}
+
+p.product {
+    text-align: justify;
+    margin: 1.65vw 1.65vw 1.65vw 1.5vw;
+    padding-right: 9.5vw;
+    font-size: 3.8vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a.product {
+    display: inline-block;
+    background-color: #424242;
+    text-align: center;
+    height: 7.5vw;
+    width: 25%;
+    padding: 5px 5px;
+    margin: 0.6vw;
+    font-size: 3.7vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+article.product {
+    display: inline-block;
+    width: 100%;
+    height: 113vw;
+    margin: 15px 1vw;
+    background-color: #757575;
+    border: 10px solid #424242;
+}
+
+h2.product {
+    text-align: left;
+    margin: 1.65vw 1.65vw 1.65vw 1.5vw;
+    padding-right: 0.5vw;
+    font-size: 10.5vw;
+    font-family: 'Black Ops One', cursive;
+}
+
+p.product {
+    text-align: justify;
+    margin: 1.65vw 1.65vw 1.65vw 1.5vw;
+    padding-right: 9.5vw;
+    font-size: 4.8vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a.product {
+    display: inline-block;
+    background-color: #424242;
+    text-align: center;
+    height: 9vw;
+    width: 31%;
+    padding: 4px 5px;
+    margin: 0.6vw;
+    font-size: 4.7vw;
+    font-family: 'Raleway', sans-serif;
+}
+}

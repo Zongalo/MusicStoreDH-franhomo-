@@ -1,0 +1,24 @@
+div.columna-cat-line{
+	background-color: #757575;
+    border: 10px solid #424242;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin:2.5vw 0px;
+}
+strong.categorias{
+	display: inline-block;
+    width:100%;
+    margin: 1vw 0% 1vw 0%;
+    font-weight: 700;
+    font-size: 4.5vw;
+	font-family: 'Black Ops One', cursive;
+}
+
+p.categorias{
+	width: 95%;
+    margin: 0% 2.5%;
+    display: inline-block;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1.8vw;
+}
